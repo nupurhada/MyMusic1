@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Music Website</title>
+    <link rel="stylesheet" href="styles.css" </head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="Sound webpage_media/logo.png" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">YOUR LIBRARY</a></li>
+                <li><a href="#">PRODUCTS</a></li>
+                <li><a href="#">CONNECT</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div class="left-col">
+                <h1>MUSIC<br>IS<br>LIFE<br>ITSELF!</h1>
+            </div>
+
+            <div class="right-col">
+                <p>Click Here To Listen</p>
+                <img src="Sound webpage_media/play.png" id="icon">
+
+            </div>
+        </div>
+    </div>
+
+    <audio id="MySong">
+        <source src="Sound webpage_media/MySongmp3.pro_.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        var MySong = document.getElementById("MySong");
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function () {
+            if (MySong.paused) {
+                MySong.play();
+                icon.src = "Sound webpage_media/pause.png";
+            }
+            else {
+                MySong.pause();
+                icon.src = "Sound webpage_media/play.png";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
