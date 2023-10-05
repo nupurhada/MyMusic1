@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 1080px;
+    width: 100%;
+    background-image: url(Sound\ webpage_media/image3.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar {
+    width: 88%;
+    margin: auto;
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 140px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #5f5f5f;
+    font-size: 15px;
+}
+
+.navbar ul li a:hover {
+    color: #fff;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+
+.left-col {
+    margin-left: 5%;
+}
+
+.left-col h1 {
+    font-size: 90px;
+    color: white;
+    line-height: 110px;
+    float: left;
+
+}
+
+.right-col {
+    float: right;
+    margin-right: 6%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.right-col p {
+    font-size: 18px;
+    color: #5f5f5f;
+    font-weight: 400;
+    margin-right: 15px;
+    position: absolute;
+    margin-top: 150px;
+}
+
+.icon {
+    width: 80px;
+    cursor: pointer;
+}
+
+.Review {
+    position: relative;
+    /* margin-top: 50px; */
+    box-sizing: border-box;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8vw 10vw;
+    background-color: #142e34;
+    overflow: hidden;
+    flex: 0.7 0 0px;
+    color: #ffffff;
+
+}
+
+.review-cards {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 0px;
+    gap: 1rem;
+}
+
+.review-heading {
+    margin-bottom: 30px;
+    color: #cdc2ae;
+}
+
+.r-card {
+    position: relative;
+    border: 2px solid #cdc2ae;
+    flex-shrink: 0;
+    flex: 1 0 0px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    border-radius: 3rem;
+    height: 15vw;
+
+}
+
+.r-card-img {
+    flex-shrink: 0;
+    width: 7rem;
+    margin: 2rem 1.6rem;
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 3rem;
+    background-position: center;
+    border: 2px solid #cdc2ae;
+    margin-bottom: 7%;
+}
+
+.P1 {
+    background-image: url("/artists/Taylor\ Swift.jpg");
+
+}
+
+.P2 {
+    background-position: top;
+    background-image: url("/artists/Ed\ Sheeran.jpg");
+}
+
+.P3 {
+    background-image: url("/artists/Selene\ Gomez.jpg");
+}
+
+.P4 {
+    background-image: url("/artists/Stephen\ Sanchez.jpg");
+}
+
+.r-card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    overflow: hidden;
+    height: 16vw;
+    width: 12vw;
+
+}
+
+.r-card-dscrp {
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Nunito", "Nunito Placeholder", sans-serif;
+    color: #ffffff;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.r-card-name {
+
+    /* font-size: larger; */
+    font-weight: 600;
+    font-style: normal;
+    font-family: "Nunito", "Nunito Placeholder", sans-serif;
+    color: #cdc2ae;
+    font-size: 1.0rem;
+    /* line-height: 1.5; */
+    text-align: center;
+
+}
+
+.footer {
+    height: 150px;
+    background-color: #73a6af;
+    justify-content: center;
+}
+
+.footerBottom {
+    text-align: center;
+    margin-top: 50px;
+}
